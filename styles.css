@@ -1,0 +1,65 @@
+.navbar {
+    background-color: #333; 
+    
+ 
+    position: fixed;
+    top: 0; 
+    z-index: 1000; 
+    left: 0;
+}
+
+
+
+.navbar li a {
+    display: flex;
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    padding: 4px 10px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+    align-content: space-evenly;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+
+
+.container {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.image-container img {
+    width: 250px; 
+    height: auto; 
+    margin: 5px; 
+    border-radius: 100px;
+}
+
+
+.text {
+    font-family: 'Tahoma'; /* Specify custom font */
+    font-size: 24px; /* Larger font size */
+    line-height: 1.6; /* Adjust line height for readability */
+    color: #333; /* Text color */
+    max-width: 600px; /* Limit maximum width for readability */
+    margin: 0 auto; /* Center align horizontally */
+    padding: 20px; /* Add padding for spacing */
+}
